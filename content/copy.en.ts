@@ -1,0 +1,165 @@
+import type { Translation } from "./copy.pt";
+
+export const en: Translation = {
+  nav: {
+    home: "Home",
+    about: "About",
+    services: "Services",
+    contact: "Contact",
+    location: "Location",
+    login: "Login",
+  },
+  hero: {
+    title: "eCollab",
+    subtitle: "Transforming ideas into sustainable solutions through collaboration",
+    ctaPrimary: "Get Started",
+    ctaSecondary: "Learn More",
+  },
+  about: {
+    title: "About Us",
+    subtitle: "Learn our story and values",
+    mission: "Our Mission",
+    missionText:
+      "Develop innovative and sustainable solutions that positively impact society and the environment.",
+    values: "Our Values",
+    valuesItems: [
+      {
+        title: "Innovation",
+        description: "We constantly seek new ways to solve problems",
+      },
+      {
+        title: "Sustainability",
+        description: "Commitment to environmentally responsible practices",
+      },
+      {
+        title: "Collaboration",
+        description: "We work together to achieve common goals",
+      },
+      {
+        title: "Excellence",
+        description: "We deliver quality in everything we do",
+      },
+    ],
+  },
+  services: {
+    title: "Our Services",
+    subtitle: "Complete solutions for your needs",
+    items: [
+      {
+        title: "Consulting",
+        description:
+          "Expert guidance to optimize your processes and achieve results",
+      },
+      {
+        title: "Development",
+        description: "Creation of customized and scalable technological solutions",
+      },
+      {
+        title: "Training",
+        description: "Empowering your team with practical and updated knowledge",
+      },
+      {
+        title: "Support",
+        description:
+          "Continuous monitoring to ensure the success of implementations",
+      },
+    ],
+  },
+  contact: {
+    title: "Get In Touch",
+    subtitle: "We're ready to help you",
+    name: "Name",
+    email: "Email",
+    subject: "Subject",
+    message: "Message",
+    submit: "Send message",
+    sending: "Sending...",
+    success: "Message sent successfully!",
+    error: "Error sending message. Please try again.",
+  },
+  location: {
+    title: "Our Location",
+    subtitle: "Visit us or get in touch",
+    address: "Address",
+    phone: "Phone",
+    openMaps: "Open in Google Maps",
+  },
+  login: {
+    title: "Welcome back",
+    subtitle: "Sign in with your credentials",
+    email: "Email",
+    password: "Password",
+    submit: "Sign In",
+    loggingIn: "Signing in...",
+    createAccount: "Create account",
+    forgotPassword: "Forgot password",
+    success: "Login successful!",
+    error: "Invalid credentials. Please try again.",
+  },
+  footer: {
+    rights: "All rights reserved.",
+    privacy: "Privacy Policy",
+    terms: "Terms of Use",
+    followUs: "Follow us",
+  },
+  common: {
+    loading: "Loading...",
+    learnMore: "Learn more",
+    getStarted: "Get Started",
+    readMore: "Read more",
+  },
+  dashboard: {
+    welcome: "Welcome back",
+    points: "Your Points",
+    totalRecycled: "Total Recycled",
+    availableProducts: "Available Products",
+    recentActivity: "Recent Activity",
+    quickActions: "Quick Actions",
+    recycleNow: "Recycle Now",
+    browseStore: "Browse Store",
+    findCollection: "Collection Points",
+    viewHistory: "View History",
+  },
+  recycle: {
+    title: "Recycle",
+    subtitle: "Earn points for every recycled material",
+    howTo: "How to Recycle",
+    step1: "Separate packaging from partner products",
+    step2: "Take to the nearest collection point",
+    step3: "Present your QR Code or ID",
+    step4: "Earn points automatically",
+    materials: "Accepted Materials",
+    plastic: "Plastic",
+    paper: "Paper/Cardboard",
+    glass: "Glass",
+    metal: "Metal/Aluminum",
+  },
+  store: {
+    title: "Rewards Store",
+    subtitle: "Redeem your points for products",
+    yourPoints: "Your Points",
+    pointsNeeded: "points needed",
+    redeem: "Redeem",
+    insufficientPoints: "Insufficient points",
+    categories: "Categories",
+    all: "All",
+    featured: "Featured",
+  },
+  history: {
+    title: "History",
+    subtitle: "Your recycling and redemptions",
+    recycling: "Recycling",
+    redemptions: "Redemptions",
+    date: "Date",
+    points: "Points",
+    material: "Material",
+    product: "Product",
+    status: "Status",
+  },
+  partners: {
+    title: "Partner Brands",
+    subtitle: "Companies participating in reverse logistics",
+    joinProgram: "Join the Program",
+  },
+};
+
